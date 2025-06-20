@@ -6,9 +6,9 @@ This Python script generates a phylogenetic tree from SNP genotype data stored i
 
 📂 Input File
 	
-	• Format: .tsv (Tab-separated values)
+    • Format: .tsv (Tab-separated values)
  
-	•	Structure:
+	• Structure:
 	            - First 5 columns: metadata (ignored)
 						 
 	            - Remaining columns: SNP genotypes for each sample (e.g., "0/1", "1|0", etc.)
