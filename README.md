@@ -13,7 +13,7 @@ This Python script generates a phylogenetic tree from SNP genotype data stored i
 						 
 	            - Remaining columns: SNP genotypes for each sample (e.g., "0/1", "1|0", etc.)
 						 
-	• Example: corn_table_2.tsv
+	• Example: SNP_table.tsv
 
 ⚙️ How It Works
 
