@@ -4,9 +4,9 @@ Phylogenetic Tree from SNP Data
 
 This Python script generates a phylogenetic tree from SNP genotype data stored in a .tsv file using hierarchical clustering. It converts genotype strings (e.g., "0/0", "1/1") to numeric dosage values and computes sample distances to visualize the relationships among samples.
 
-📂 Input File
+Input File
 	
-    • Format: .tsv (Tab-separated values)
+  	• Format: .tsv (Tab-separated values)
  
 	• Structure:
 	            - First 5 columns: metadata (ignored)
@@ -15,7 +15,7 @@ This Python script generates a phylogenetic tree from SNP genotype data stored i
 						 
 	• Example: SNP_table.tsv
 
-⚙️ How It Works
+How It Works
 
 	1.	Read SNP Data:
 			- Loads the SNP matrix, skipping the first 5 columns (assumed to be metadata).
@@ -34,19 +34,19 @@ This Python script generates a phylogenetic tree from SNP genotype data stored i
 	5.	Plot Dendrogram:
 			- Displays the dendrogram (phylogenetic tree) with sample labels.
 	 
-🧪 Requirements
+Requirements
 Install the required Python packages:
 
 	pip install numpy pandas scipy matplotlib
 
-▶️ Usage
+Usage
 python encoded2phylo.py
 Make sure your SNP_table.tsv file is in the same directory, or change the file path in the script.
 
-📈 Output
-	- A dendrogram (hierarchical tree) showing the genetic relationships between samples based on SNP genotypes.
+Output
+        - A dendrogram (hierarchical tree) showing the genetic relationships between samples based on SNP genotypes.
 
-📝 Notes
+Notes
 
 	• You can modify the encode_dosage() function to support other genotype formats.
 	•	Change the fillna() method if you prefer using mean or another imputation method.
