@@ -49,6 +49,6 @@ Output
 Notes
 
 	• You can modify the encode_dosage() function to support other genotype formats.
-	•	Change the fillna() method if you prefer using mean or another imputation method.
-	•	You can switch linkage methods (average, single, complete, etc.) or distance metrics (euclidean, cityblock, etc.) for different clustering behaviors.
+	• Change the fillna() method if you prefer using mean or another imputation method.
+	• You can switch linkage methods (average, single, complete, etc.) or distance metrics (euclidean, cityblock, etc.) for different clustering behaviors.
 
